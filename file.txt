@@ -1,0 +1,15 @@
+"privacy" : {
+            "prompt" : "template",
+            "template" : {
+                "title" : "欢迎使用学之阅伴",
+                "message" : "　　为保证您正常、安全使用学之阅伴，我们将向您申请如下权限:<br/><br/><b>地理位置</b><br/>基于地理位置来推荐课程信息<br/><br/><b>电话权限</b><br/>仅用于获取设备ID，确保您的账户登录安全<br/><br/>    继续使用代表您已阅读并同意上述内容及< a href=' '>《用户协议》</ a>与< a href='http://bandu.s.li4.cn/zhengce.html'>《隐私政策》</ a>",
+                "buttonAccept" : "我已同意并继续使用",
+                "buttonRefuse" : "暂不同意"
+            }
+        },
+
+
+
+goWeb(url) {
+   url && plus.runtime.openWeb(url);
+  },
